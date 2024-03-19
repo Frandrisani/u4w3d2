@@ -22,8 +22,7 @@ public class Evento {
         // --> Vuoto per restituzione di oggetti da parte del Database
 }
 
-public Evento(Long id, String titolo, LocalDate dataEvento, String descrizione, int numeroMassimoPartecipanti, TipoEvento tipoEvento) {
-    this.id = id;
+public Evento(String titolo, LocalDate dataEvento, String descrizione, int numeroMassimoPartecipanti, TipoEvento tipoEvento) {
     this.titolo = titolo;
     this.dataEvento = dataEvento;
     this.descrizione = descrizione;
